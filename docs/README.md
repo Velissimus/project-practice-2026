@@ -115,7 +115,7 @@
 ---
 
 ### Скриншоты интерфейса
-![скриншот](screenshots/сайт главная1.png)
+![скриншот](screenshots/site index1.png)
 ![скриншот](screenshots/сайт главная2.png)
 ![скриншот](screenshots/сайт о проекте1.png)
 
