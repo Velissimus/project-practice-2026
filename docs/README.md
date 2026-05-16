@@ -117,11 +117,11 @@
 ### Скриншоты интерфейса
 
 
-![Главная страница](docs/screenshots/index1.png)
+![Главная страница](./screenshots/index1.png)
 
-![главная страница](docs/screenshots/index2.png)
+![главная страница](screenshots/index2.png)
 
-![сСтраница о проекте](docs/screenshots/about.png)
+![сСтраница о проекте](screenshots/about.png)
 
 
 
