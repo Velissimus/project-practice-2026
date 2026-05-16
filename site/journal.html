@@ -1,1 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Журнал разработки Dark Machine - этапы работы художника над визуальной частью игры.">
+    <title>Журнал разработки | Dark Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html" aria-label="Dark Machine, главная">
+                <img class="logo-image" src="assets/логотип.png" alt="">
+                <span>Dark Machine</span>
+            </a>
 
+            <nav class="main-nav" aria-label="Основная навигация">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О проекте</a>
+                <a href="team.html">Команда</a>
+                <a class="active" href="journal.html">Журнал разработки</a>
+                <a href="resources.html">Ресурсы</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Герой страницы журнала -->
+        <section class="page-hero journal-page-hero">
+            <!-- ⬇️ ЗДЕСЬ МОЖНО ВСТАВИТЬ СВОЁ ФОНОВОЕ ИЗОБРАЖЕНИЕ ЧЕРЕЗ CSS -->
+            <div class="container page-hero-inner">
+                <p class="eyebrow">Devlog / Художественная часть</p>
+                <h1>Журнал разработки</h1>
+                <p>
+                    В данном разделе представлены этапы моей работы над визуальной 
+                    частью проекта Dark Machine.
+                </p>
+                <div class="tag-row">
+                    <span>Пиксель-арт</span>
+                    <span>Дизайн окружения</span>
+                    <span>Концепт-арт</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Основной журнал -->
+        <section class="section devlog-section">
+            <div class="container">
+                <div class="devlog-intro">
+                    <p class="section-kicker">Процесс создания</p>
+                    <h2>Визуальная разработка</h2>
+                </div>
+
+                <!-- Список записей журнала -->
+                <div class="devlog-entries">
+                    
+                    <!-- ЗАПИСЬ 1: Колбы -->
+                    <article class="devlog-entry">
+                        <div class="entry-header">
+                            <time datetime="2026-02-15">15 февраля 2026</time>
+                            <span class="entry-number">Запись #01</span>
+                        </div>
+
+                        <div class="entry-content">
+                            <h3>Разработка колб для первой локации</h3>
+                            
+                            <div class="entry-body">
+                                <div class="entry-text">
+                                    <p>
+                                        Был разработан дизайн для важного элемента заднего плана первой 
+                                        локации игры — колб, внутри которых роботы выращивают людей для 
+                                        своих нужд.
+                                    </p>
+                                    <p>
+                                        Мною было создано <strong>7 разных вариаций колб</strong>, в которых 
+                                        были изменены позы людей и сам внешний вид конструкций. Каждая колба 
+                                        имеет уникальную структуру, создавая атмосферу индустриального ужаса 
+                                        и подчёркивая бесчеловечность заводского производства.
+                                    </p>
+                                    
+                                    <div class="entry-stats">
+                                        <div class="stat">
+                                            <span class="stat-value">7</span>
+                                            <span class="stat-label">вариаций</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">~6ч</span>
+                                            <span class="stat-label">работы</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">64×128</span>
+                                            <span class="stat-label">пикселей</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="entry-media">
+                                    <!-- ⬇️ ВСТАВЬ СЮДА СВОЁ ИЗОБРАЖЕНИЕ -->
+                                    <figure class="media-placeholder">
+                                        <img src="assets/колбы.png" alt="Вариации дизайна колб">
+                                        <figcaption>Колбы для первой локации</figcaption>
+                                    </figure>
+                                    <!-- ⬆️ КОНЕЦ БЛОКА ДЛЯ ИЗОБРАЖЕНИЯ -->
+                                </div>
+                            </div>
+
+                            <div class="entry-tags">
+                                <span class="tag">концепт-арт</span>
+                                <span class="tag">окружение</span>
+                                <span class="tag">ключевой элемент</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- ЗАПИСЬ 2: Тайлсет -->
+                    <article class="devlog-entry">
+                        <div class="entry-header">
+                            <time datetime="2026-03-06">06 марта 2026</time>
+                            <span class="entry-number">Запись #02</span>
+                        </div>
+
+                        <div class="entry-content">
+                            <h3>Создание тайлсета окружения</h3>
+                            
+                            <div class="entry-body">
+                                <div class="entry-text">
+                                    <p>
+                                        Были разработаны тайлсеты элементов окружения: <strong>вариации 
+                                        медных листов</strong> для металлических стен и пола.
+                                    </p>
+                                    <p>
+                                        Основная задача заключалась в создании модульной системы, 
+                                        которая позволит гибко строить различные помещения завода, 
+                                        сохраняя при этом единый индустриальный стиль. Медная текстура 
+                                        с ржавчиной и заклёпками подчёркивает возраст конструкций 
+                                        и атмосферу заброшенного производства.
+                                    </p>
+                                    
+                                    <div class="entry-stats">
+                                        <div class="stat">
+                                            <span class="stat-value">24</span>
+                                            <span class="stat-label">тайла</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">32×32</span>
+                                            <span class="stat-label">пикселей</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">2</span>
+                                            <span class="stat-label">тайлсета</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="entry-media">
+                                    <!-- ⬇️ ВСТАВЬ СЮДА СВОЁ ИЗОБРАЖЕНИЕ -->
+                                    <figure class="media-placeholder">
+                                        <img src="assets/стены.png" alt="Вариации дизайна стен и пола">
+                                        <figcaption>Медные листы пола и стен</figcaption>
+                                    </figure>
+                                    <!-- ⬆️ КОНЕЦ БЛОКА ДЛЯ ИЗОБРАЖЕНИЯ -->
+                                </div>
+                            </div>
+
+                            <div class="entry-tags">
+                                <span class="tag">тайлсет</span>
+                                <span class="tag">текстуры</span>
+                                <span class="tag">модульность</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- ЗАПИСЬ 3: Препятствия -->
+                    <article class="devlog-entry">
+                        <div class="entry-header">
+                            <time datetime="2026-04-02">02 апреля 2026</time>
+                            <span class="entry-number">Запись #03</span>
+                        </div>
+
+                        <div class="entry-content">
+                            <h3>Создание препятствий</h3>
+                            
+                            <div class="entry-body">
+                                <div class="entry-text">
+                                    <p>
+                                        Мною было отрисовано <strong>три типа препятствий</strong>: низкое, 
+                                        среднее и высокое, подразумевающих перешагивание, перепрыгивание 
+                                        и ползанье соответственно.
+                                    </p>
+                                    <p>
+                                        Каждый тип препятствия разработан с учётом игровой механики 
+                                        и визуально отражает заводскую среду: трубы, балки, вентиляционные 
+                                        шахты. Важно было сделать так, чтобы игрок интуитивно понимал, 
+                                        какое действие требуется для преодоления препятствия, основываясь 
+                                        только на его внешнем виде и высоте.
+                                    </p>
+                                    
+                                    <div class="entry-stats">
+                                        <div class="stat">
+                                            <span class="stat-value">3</span>
+                                            <span class="stat-label">типа</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">3</span>
+                                            <span class="stat-label">механики</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">~8ч</span>
+                                            <span class="stat-label">работы</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="entry-media">
+                                    <!-- ⬇️ ВСТАВЬ СЮДА СВОЁ ИЗОБРАЖЕНИЕ -->
+                                    <figure class="media-placeholder">
+                                        <img src="assets/преп.png" alt="Вариации дизайна препятствий">
+                                        <figcaption>Низкие, средние и высокие препятствия</figcaption>
+                                    </figure>
+                                    <!-- ⬆️ КОНЕЦ БЛОКА ДЛЯ ИЗОБРАЖЕНИЯ -->
+                                </div>
+                            </div>
+
+                            <div class="entry-tags">
+                                <span class="tag">геймплей</span>
+                                <span class="tag">уровень-дизайн</span>
+                                <span class="tag">механики</span>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- ЗАПИСЬ 4: Мусор -->
+                    <article class="devlog-entry">
+                        <div class="entry-header">
+                            <time datetime="2026-04-28">28 апреля 2026</time>
+                            <span class="entry-number">Запись #04</span>
+                        </div>
+
+                        <div class="entry-content">
+                            <h3>Создание спрайтов мусора</h3>
+                            
+                            <div class="entry-body">
+                                <div class="entry-text">
+                                    <p>
+                                        Разработаны визуальные элементы мусора для создания атмосферы 
+                                        заброшенного индустриального пространства. Было создано <strong>два 
+                                        типа мусора</strong>: обычный разбросанный и спрессованный в кубы.
+                                    </p>
+                                    <p>
+                                        <strong>Обычный мусор</strong> представляет собой хаотично разбросанные 
+                                        металлические обломки, ржавые детали, сломанные механизмы и остатки 
+                                        заводского производства. Эти элементы создают ощущение запустения 
+                                        и долгого отсутствия обслуживания.
+                                    </p>
+                                    <p>
+                                        <strong>Спрессованный мусор</strong> — это аккуратные кубы из сжатого 
+                                        металлолома, которые демонстрируют попытки роботов поддерживать порядок 
+                                        на заводе. Эти кубы могут использоваться как декоративные элементы 
+                                        или даже как платформы для геймплея.
+                                    </p>
+                                    
+                                    <div class="entry-stats">
+                                        <div class="stat">
+                                            <span class="stat-value">2</span>
+                                            <span class="stat-label">типа мусора</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">5</span>
+                                            <span class="stat-label">вариаций</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">~6ч</span>
+                                            <span class="stat-label">работы</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="entry-media">
+                                    <!-- ⬇️ ВСТАВЬ СЮДА СВОЁ ИЗОБРАЖЕНИЕ -->
+                                    <figure class="media-placeholder">
+                                        <img src="assets/trash.png" alt="Вариации дизайна мусора">
+                                        <figcaption>Различные варианты дизайна мусора</figcaption>
+                                    </figure>
+                                    <!-- ⬆️ КОНЕЦ БЛОКА ДЛЯ ИЗОБРАЖЕНИЯ -->
+                                </div>
+                            </div>
+
+                            <div class="entry-tags">
+                                <span class="tag">детали окружения</span>
+                                <span class="tag">атмосфера</span>
+                                <span class="tag">декорации</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+         
+        <!-- Итоги работы -->
+        <section class="section summary-section">
+            <div class="container">
+                <div class="summary-panel">
+                    <div class="summary-text">
+                        <p class="section-kicker">Текущий прогресс</p>
+                        <h2>Результаты работы</h2>
+                        <p>
+                            За время разработки визуальной части проекта мною было создано множество 
+                            элементов, формирующих уникальную атмосферу Dark Machine. Работа 
+                            продолжается, и впереди ещё много интересных задач.
+                        </p>
+                    </div>
+
+                    <div class="summary-stats">
+                        <div class="summary-stat-item">
+                            <div class="summary-stat-number">30+</div>
+                            <div class="summary-stat-label">элементов окружения</div>
+                        </div>
+                        <div class="summary-stat-item">
+                            <div class="summary-stat-number">40+</div>
+                            <div class="summary-stat-label">часов работы</div>
+                        </div>
+                        <div class="summary-stat-item">
+                            <div class="summary-stat-number">4</div>
+                            <div class="summary-stat-label">типа ассетов</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Призыв к действию -->
+        <section class="section cta-section">
+            <div class="container cta-inner">
+                <h2>Узнать больше о проекте</h2>
+                <p>
+                    Ознакомьтесь с полным описанием игры и командой разработки 
+                    на других страницах сайта.
+                </p>
+                <a class="button primary" href="about.html">О проекте Dark Machine</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a class="logo" href="index.html" aria-label="Dark Machine, главная">
+                    <img class="logo-image" src="assets/логотип.png" alt="">
+                    <span>Dark Machine</span>
+                </a>
+                <p>
+                    Пиксельная 2D-игра о мрачном заводском мире, где человеку приходится
+                    выбирать между свободой, выживанием и механическими улучшениями.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Страницы</h3>
+                <a href="index.html">Главная</a>
+                <a href="about.html">О проекте</a>
+                <a href="team.html">Команда</a>
+                <a href="journal.html">Журнал разработки</a>
+                <a href="resources.html">Ресурсы</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Проект</h3>
+                <a href="journal.html">Заметки разработки</a>
+                <a href="resources.html">Материалы</a>
+                <a href="team.html">Участники</a>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>2026 Dark Machine</p>
+            <p>Пиксельный стимпанк-проект</p>
+        </div>
+    </footer>
+</body>
+</html>
