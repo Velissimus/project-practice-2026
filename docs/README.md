@@ -321,7 +321,7 @@ Tkinter Events
 
 ### Светлая тема редактора
 
-![Светлая тема](screenshots/text redactor1.png)
+![Светлая тема](screenshots/textredactor1.png)
 
 ### Тёмная тема редактора
 
