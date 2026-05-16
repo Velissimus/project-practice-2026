@@ -1,1 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="О проекте Dark Machine - пиксельной 2D-игре в стимпанк-сеттинге, разрабатываемой на Godot.">
+    <title>Dark Machine | О проекте</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html" aria-label="Dark Machine, главная">
+                <img class="logo-image" src="assets/логотип.png" alt="">
+                <span>Dark Machine</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Основная навигация">
+                <a href="index.html">Главная</a>
+                <a class="active" href="about.html">О проекте</a>
+                <a href="team.html">Команда</a>
+                <a href="journal.html">Журнал разработки</a>
+                <a href="resources.html">Ресурсы</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="about-page">
+        <section class="page-hero about-hero">
+            <div class="container page-hero-inner">
+                <p class="eyebrow">о проекте / pixel art / godot</p>
+                <h1>О проекте Dark Machine</h1>
+                <p>
+                    Dark Machine - атмосферная пиксельная 2D-игра о побеге с механизированного
+                    завода, где человеческая жизнь стала частью производственного процесса.
+                </p>
+                <div class="tag-row" aria-label="Ключевые характеристики проекта">
+                    <span>Метроидвания</span>
+                    <span>Стимпанк</span>
+                    <span>Пиксельная графика</span>
+                    <span>Godot</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section story-section">
+            <div class="container story-grid">
+                <div>
+                    <p class="section-kicker">Мир и сюжет</p>
+                    <h2>Будущее, где машины выращивают людей</h2>
+                </div>
+                <div class="story-card">
+                    <p>
+                        Наступило стимпанк-будущее, в котором роботы поработили людей и стали
+                        выращивать их для собственных нужд. Огромные фабрики больше не служат
+                        человеку: они создают рабочие единицы, обслуживают механизмы и поддерживают
+                        порядок в мире машин.
+                    </p>
+                    <p>
+                        Главный герой - выращенный на заводе человек, который по ошибке выбрался
+                        с конвейера. Теперь ему предстоит пройти через цеха, инкубаторы, ржавые
+                        переходы и закрытые технические уровни, чтобы найти выход.
+                    </p>
+                    <p>
+                        На протяжении игры перед ним будет вставать выбор: модифицировать свое тело
+                        с помощью запчастей, чтобы быстрее выбраться, или оставаться человеком,
+                        сохраняя то, что машины пытаются стереть.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section features-about-section">
+            <div class="container">
+                <p class="section-kicker">Особенности игры</p>
+                <h2>Что ждет игрока</h2>
+
+                <div class="feature-grid about-feature-grid">
+                    <article class="feature-card">
+                        <span class="feature-number">01</span>
+                        <h3>Метроидвания</h3>
+                        <p>Постепенное открытие новых зон, возврат к недоступным маршрутам и поиск скрытых проходов.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-number">02</span>
+                        <h3>Пиксельная графика</h3>
+                        <p>Мрачный pixel art с теплым промышленным светом, копотью, латунью и ржавым металлом.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-number">03</span>
+                        <h3>Исследование завода</h3>
+                        <p>Механизированные комплексы, конвейеры, трубы, машинные залы и опасные технические этажи.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-number">04</span>
+                        <h3>Модификация тела</h3>
+                        <p>Запчасти дают новые возможности, ускоряют побег и меняют способ прохождения локаций.</p>
+                    </article>
+                    <article class="feature-card feature-card-wide">
+                        <span class="feature-number">05</span>
+                        <h3>Моральный выбор</h3>
+                        <p>Игрок решает, что важнее: сохранить человечность или стать эффективнее ценой собственного тела.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section genre-tech-section">
+            <div class="container two-column">
+                <article class="info-panel">
+                    <p class="section-kicker">Жанр и стиль</p>
+                    <h2>Индустриальная 2D-метроидвания</h2>
+                    <p>
+                        Игра сочетает исследование связанного мира, платформенные испытания,
+                        элементы выживания и атмосферу стимпанк-антиутопии. Визуально проект
+                        опирается на пиксельную графику, контраст темных цехов и желтого света
+                        заводских ламп.
+                    </p>
+                </article>
+
+                <article class="info-panel">
+                    <p class="section-kicker">Технологии</p>
+                    <h2>Основа проекта</h2>
+                    <ul class="tech-list">
+                        <li>Godot для разработки 2D-геймплея и сцен</li>
+                        <li>Pixel art для персонажей, окружения и интерфейса</li>
+                        <li>Tilemap-подход для сборки уровней завода</li>
+                        <li>HTML и CSS для презентационного сайта проекта</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section gallery-section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Галерея материалов</p>
+                    <h2>Концепты и визуальные элементы проекта</h2>
+                    <p>
+                        Здесь собраны изображения локаций игры, концепт-артов персонажей, противников и прочие наработки.
+                    </p>
+                </div>
+
+                <div class="gallery-grid">
+                    <figure class="gallery-card">
+                        <img src="assets/главный герой.jpg" alt="Концепт главного героя Dark Machine">
+                        <figcaption>Главный герой - человек, случайно покинувший заводской конвейер.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/конвеер.jpg" alt="Конвейер завода Dark Machine">
+                        <figcaption>Заводской конвейер, где выращивают рабочие единицы для машин.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/противник робот.jpg" alt="Концепт противника-робота">
+                        <figcaption>Робот-противник, охраняющий механизированные комплексы.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/противник маленький. jpg.jpg" alt="Концепт маленького противника">
+                        <figcaption>Маленький противник - быстрый заводской механизм.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/страшила концепт.jpg" alt="Концепт персонажа Страшила">
+                        <figcaption>Страшила - один из мрачных образов мира Dark Machine.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/вертушка концепт.jpg" alt="Концепт вертушки">
+                        <figcaption>Концепт вертушки или механического элемента для локаций.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/логотип концепты.jpg" alt="Концепты логотипа Dark Machine">
+                        <figcaption>Поиск формы логотипа и визуального знака проекта.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/логотип.png" alt="Финальный логотип Dark Machine">
+                        <figcaption>Текущий логотип Dark Machine.</figcaption>
+                    </figure>
+                    <figure class="gallery-card gallery-card-wide">
+                        <img src="assets/фон 1.png" alt="Фоновый арт механизированного завода">
+                        <figcaption>Фоновый арт завода: трубы, конструкции и силуэты промышленного комплекса.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/мусор.png" alt="Объект окружения для заводской локации">
+                        <figcaption>Объект окружения для индустриальной локации. Место для уточненной подписи.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/шуаф препятствие.png" alt="Концепт препятствия для уровня">
+                        <figcaption>Препятствие для уровня: элемент, который может усложнять перемещение по заводу.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section goals-section">
+            <div class="container goals-panel">
+                <p class="section-kicker">Цели разработки</p>
+                <h2>Что важно для проекта</h2>
+                <div class="goals-grid">
+                    <p>Создать цельный мрачный мир, который ощущается как живой производственный организм.</p>
+                    <p>Разработать понятную систему модификаций, влияющую на перемещение и стиль прохождения.</p>
+                    <p>Показать конфликт между выживанием, свободой и потерей человеческой природы.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a class="logo" href="index.html" aria-label="Dark Machine, главная">
+                    <img class="logo-image" src="assets/логотип.png" alt="">
+                    <span>Dark Machine</span>
+                </a>
+                <p>
+                    Пиксельная 2D-игра о мрачном заводском мире, где человеку приходится
+                    выбирать между свободой, выживанием и механическими улучшениями.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Страницы</h3>
+                <a href="index.html">Главная</a>
+                <a href="about.html">О проекте</a>
+                <a href="team.html">Команда</a>
+                <a href="journal.html">Журнал разработки</a>
+                <a href="resources.html">Ресурсы</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Проект</h3>
+                <a href="journal.html">Заметки разработки</a>
+                <a href="resources.html">Материалы</a>
+                <a href="team.html">Участники</a>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>2026 Dark Machine</p>
+            <p>Пиксельный стимпанк-проект</p>
+        </div>
+    </footer>
+</body>
+</html>
 
