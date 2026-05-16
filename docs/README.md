@@ -115,7 +115,9 @@
 ---
 
 ### Скриншоты интерфейса
-![Uploading image.png…]()
+![1](screenshots/сайт главная1.png)
+![2](screenshots/сайт главная2.png)
+![3](screenshots/сайт о проекте1.png)
 
 
 
