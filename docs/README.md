@@ -117,11 +117,11 @@
 ### Скриншоты интерфейса
 
 
-![Главная страница]([docs/screenshots/site_index1.png](https://github.com/Velissimus/project-practice-2026/blob/main/docs/screenshots/site_index1.png))
+![Главная страница](docs/screenshots/index1.png)
 
-![скриншот](screenshots/сайт главная2.png)
+![главная страница](docs/screenshots/index2.png)
 
-![скриншот](screenshots/сайт о проекте1.png)
+![сСтраница о проекте](docs/screenshots/about.png)
 
 
 
