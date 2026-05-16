@@ -115,8 +115,12 @@
 ---
 
 ### Скриншоты интерфейса
+
+
 ![скриншот](docs/screenshots/site_index1.png)
+
 ![скриншот](screenshots/сайт главная2.png)
+
 ![скриншот](screenshots/сайт о проекте1.png)
 
 
